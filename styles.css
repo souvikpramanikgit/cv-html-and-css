@@ -1,0 +1,112 @@
+body,
+hr {
+    background-color: #F6F1F1;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(199, 177, 152);
+    border-width: 5px;
+    width: 29%;
+}
+
+h1,
+h3 {
+    color: #000000;
+    background-color: rgb(199, 177, 152);
+}
+
+.intro table {
+    border-style: solid;
+    border-color: rgb(199, 177, 152);
+    border-width: 10px;
+}
+
+.intro td {
+    border-style: solid;
+    border-color: rgb(199, 177, 152);
+    border-width: 2.5px;
+}
+
+.intro .image {
+    background-color: white;
+}
+
+.education table,
+.education th,
+.education td {
+    border: 1px solid rgb(199, 177, 152);
+}
+
+.education th {
+    background-color: rgb(199, 177, 152);
+}
+
+.skill {
+    border-style: solid;
+    border-color: rgb(199, 177, 152);
+    border-width: 5px;
+}
+
+h2 {
+    background-color: rgb(199, 177, 152);
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.bottom-container {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0 20px;
+    line-height: 2;
+}
+
+.bottom-container a {
+    color: #000000;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-family: serif;
+}
+
+.bottom-container a:hover {
+    color: rgb(211, 177, 137);
+}
+
+.copyright {
+    font-family: serif;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width:799px) {
+
+    .intro table {
+        display: block;
+        width: auto;
+        overflow-x: auto;
+    }
+
+    .intro td {
+        display: block;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .intro .image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+}
